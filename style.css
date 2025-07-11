@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #2196f3, #00bcd4);
+  color: #ffffff;
+}
+
+.poster {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.content {
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  color: #ff5252;
+  animation: pulse 2s infinite;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #80deea;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.tips-section {
+  margin-top:
